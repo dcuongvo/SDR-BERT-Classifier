@@ -18,7 +18,7 @@ This enables automated triage and trend analysis of free-text maintenance discre
 - **Description**: SDRS is a public database that collects safety and reliability reports from operators, repair stations, and manufacturers.  
 - **Current scope**:  
   - This first version of the model was trained **only on Boeing 767 reports**,  
-  - Covering data from **Year X to Year Y** (adjust this with your actual range).  
+  - Covering data from **Year 2021 to Year 2025** (adjust this with your actual range).  
   - Future iterations will expand to more aircraft models and broader date ranges.
 
 ---
