@@ -1,0 +1,54 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb.ipynb  # accidental double extension from some editors
+
+# Data (keep a tiny sample only)
+data/
+!data/README.md
+!data/samples/**
+
+# Hugging Face caches
+.cache/
+huggingface/
+~/.cache/huggingface/
+
+# Training outputs & large artifacts
+outputs/
+models/
+checkpoints/
+**/checkpoint-*/
+**/runs/
+**/logs/
+
+# Large model files 
+*.bin
+*.safetensors
+*.pt
+*.onnx
+*.ckpt
+*.pb
+*.tflite
+
+# CSV/XLS 
+*.csv
+*.tsv
+*.xlsx
+*.xls
+!data/samples/*.csv  # allow tiny demo files
+
