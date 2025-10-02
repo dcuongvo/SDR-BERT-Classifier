@@ -1,0 +1,23 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+tqdm>=4.66
+protobuf>=4.25,<5
+
+# Hugging Face stack (pinned to what you ran)
+transformers==4.56.2
+tokenizers==0.22.1
+datasets==4.1.1
+accelerate==1.10.1
+evaluate==0.4.6
+huggingface_hub>=0.23
+safetensors>=0.6
+sentencepiece>=0.1.99
+
+# Notebook / viz / simple UI
+matplotlib>=3.8
+ipywidgets>=8.0
+jupyterlab_widgets>=3.0
+
+#torch is not include here as you can choose vesion you want CPU/GPU/..
